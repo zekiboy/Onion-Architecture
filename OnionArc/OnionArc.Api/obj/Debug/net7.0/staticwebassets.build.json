@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pRSMwpzA8wSM/b3WDrsQ3lEDZEUsKsSzBg83PlAZFW4=",
+  "Source": "OnionArc.Api",
+  "BasePath": "_content/OnionArc.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

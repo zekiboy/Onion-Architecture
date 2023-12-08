@@ -1,0 +1,17 @@
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Mapper.deps.json
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Mapper.dll
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Mapper.pdb
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Application.dll
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Domain.dll
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Application.pdb
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/bin/Debug/net7.0/OnionArc.Domain.pdb
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.csproj.AssemblyReference.cache
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.AssemblyInfoInputs.cache
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.AssemblyInfo.cs
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.csproj.CoreCompileInputs.cache
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.csproj.CopyComplete
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.dll
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/refint/OnionArc.Mapper.dll
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/OnionArc.Mapper.pdb
+/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/Debug/net7.0/ref/OnionArc.Mapper.dll
