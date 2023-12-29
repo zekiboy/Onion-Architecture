@@ -16,10 +16,24 @@
     <None Remove="Features\Products\Queries\" />
     <None Remove="Features\Products\Queries\GetAllProducts\" />
     <None Remove="Interfaces\Automapper\" />
-    <None Remove="Interfaces\Repositories\" />
     <None Remove="Features\Products\Commond\CreateProduct\" />
     <None Remove="Features\Products\Commond\UpdateProduct\" />
     <None Remove="Features\Products\Commond\DeleteProduct\" />
+    <None Remove="Beheviors\" />
+    <None Remove="Bases\" />
+    <None Remove="Features\Products\Rules\" />
+    <None Remove="Features\Products\Exceptions\" />
+    <None Remove="Interfaces\Tokens\" />
+    <None Remove="Features\Auth\" />
+    <None Remove="Features\Auth\Command\" />
+    <None Remove="Features\Auth\Exceptions\" />
+    <None Remove="Features\Auth\Queries\" />
+    <None Remove="Features\Auth\Rules\" />
+    <None Remove="Features\Auth\Command\Register\" />
+    <None Remove="Features\Auth\Command\Login\" />
+    <None Remove="Features\Auth\Command\RefreshToken\" />
+    <None Remove="Features\Auth\Command\Revoke\" />
+    <None Remove="Features\Auth\Command\RevokeAll\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
@@ -31,14 +45,33 @@
     <Folder Include="Features\Products\Queries\" />
     <Folder Include="Features\Products\Queries\GetAllProducts\" />
     <Folder Include="Interfaces\Automapper\" />
-    <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Features\Products\Commond\CreateProduct\" />
     <Folder Include="Features\Products\Commond\UpdateProduct\" />
     <Folder Include="Features\Products\Commond\DeleteProduct\" />
+    <Folder Include="Beheviors\" />
+    <Folder Include="Bases\" />
+    <Folder Include="Features\Products\Rules\" />
+    <Folder Include="Features\Products\Exceptions\" />
+    <Folder Include="Interfaces\Tokens\" />
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Features\Auth\Command\" />
+    <Folder Include="Features\Auth\Exceptions\" />
+    <Folder Include="Features\Auth\Queries\" />
+    <Folder Include="Features\Auth\Rules\" />
+    <Folder Include="Features\Auth\Command\Register\" />
+    <Folder Include="Features\Auth\Command\Login\" />
+    <Folder Include="Features\Auth\Command\RefreshToken\" />
+    <Folder Include="Features\Auth\Command\Revoke\" />
+    <Folder Include="Features\Auth\Command\RevokeAll\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
     <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OnionArc.Domain\OnionArc.Domain.csproj" />

@@ -9,4 +9,15 @@
   <ItemGroup>
     <ProjectReference Include="..\OnionArc.Application\OnionArc.Application.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Tokens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tokens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.14" />
+  </ItemGroup>
 </Project>

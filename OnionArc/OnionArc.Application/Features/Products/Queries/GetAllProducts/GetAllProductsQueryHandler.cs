@@ -1,7 +1,6 @@
-﻿ using System;
+﻿  using System;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using OnionArc.Application.Dto;
 using OnionArc.Application.Interfaces;
 using OnionArc.Application.Interfaces.Automapper;
 using OnionArc.Domain.Entities;
@@ -29,7 +28,7 @@ namespace OnionArc.Application.Features.Products.Queries.GetAllProducts
             //    .ThenInclude(b=>b.Category));
 
 
-            //ProductCategoriesDTp diye bir şey yok, ayrıca GetAllAsycn unitOfWorkten köklü bir değişiklik yapmak lazım
+            //ProductCategoriesDto diye bir şey yok, ayrıca GetAllAsycn unitOfWorkten köklü bir değişiklik yapmak lazım
             //oyüzden ürünler şimdilik kategori bilgisi olmadan gelsin. Son CQRS olarak ayarla
 
             //var category = mapper.Map<List<CategoryDTO>, List< Category>>(new List<Category> ());
@@ -37,6 +36,7 @@ namespace OnionArc.Application.Features.Products.Queries.GetAllProducts
             var map = mapper.Map<GetAllProductsQueryResponse, Product>(products);
 
             return map ;
+            //throw new Exception("hata mesajı");
         }
     }
 }

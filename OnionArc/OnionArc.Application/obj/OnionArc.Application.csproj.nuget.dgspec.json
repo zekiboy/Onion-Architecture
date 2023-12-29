@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {}
+    "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {}
   },
   "projects": {
-    "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {
+    "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
+        "projectUniqueName": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
         "projectName": "OnionArc.Application",
-        "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
+        "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
         "packagesPath": "/Users/zekiboy/.nuget/packages/",
-        "outputPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/obj/",
+        "outputPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj": {
-                "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj"
+              "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj": {
+                "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj"
               }
             }
           }
@@ -42,13 +42,33 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -71,14 +91,14 @@
         }
       }
     },
-    "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj": {
+    "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
+        "projectUniqueName": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
         "projectName": "OnionArc.Domain",
-        "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
+        "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
         "packagesPath": "/Users/zekiboy/.nuget/packages/",
-        "outputPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/obj/",
+        "outputPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
@@ -104,6 +124,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

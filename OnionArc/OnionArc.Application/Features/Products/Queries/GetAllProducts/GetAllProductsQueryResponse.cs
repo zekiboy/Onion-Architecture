@@ -1,5 +1,4 @@
 ﻿using System;
-using OnionArc.Application.Dto;
 using OnionArc.Domain.Entities;
 
 namespace OnionArc.Application.Features.Products.Queries.GetAllProducts

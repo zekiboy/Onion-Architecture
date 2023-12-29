@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "kq/k2o4GwTX6Scc6zAGUgTuCVB9+sGp0rxcy73x87o9L9vIHfExZZniRb5rCIY13VQHiZ4QAC8GpPqgsebR9Pw==",
+  "dgSpecHash": "2zaAN89qisUOhIACbgtJzAgBFLTm0yuhao2pZp1DlC6jt/2+TbRZpVH0do3ReFUE8FSjxEJ4SIA0oPQAPvfrGw==",
   "success": true,
-  "projectFilePath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/zekiboy/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.14/microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.14/microsoft.aspnetcore.cryptography.keyderivation.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.14/microsoft.aspnetcore.identity.entityframeworkcore.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.entityframeworkcore/7.0.14/microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.14/microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.14/microsoft.entityframeworkcore.relational.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.identity.core/7.0.14/microsoft.extensions.identity.core.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.identity.stores/7.0.14/microsoft.extensions.identity.stores.7.0.14.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/zekiboy/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

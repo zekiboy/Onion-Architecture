@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OnionArc.Application.Interfaces;
 using OnionArc.Domain.Entities;
@@ -6,7 +8,7 @@ using OnionArc.Persistence.Configurations;
 
 namespace OnionArc.Persistence.Context
 { 
-	public class ApplicationDbContext : DbContext, IApplicationContext
+	public class ApplicationDbContext : IdentityDbContext<User, Role, Guid>
     {
 		public ApplicationDbContext()	{	}
 
@@ -24,35 +26,37 @@ namespace OnionArc.Persistence.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            base.OnModelCreating(modelBuilder);
+
 
             // ProductCategoryConfiguration aşağıdaki satır olmadan görmüyor. Bu yüzden migration oluştururken hata alırsın
             modelBuilder.ApplyConfiguration(new ProductCategoryConfiguration());
 
 
 
-            modelBuilder.Entity<Category>().HasData(
-                new Category { Id = 1, categoryName = "Category 1" },
-                new Category { Id = 2, categoryName = "Category 2" },
-                new Category { Id = 3, categoryName = "Category 3" }
-                );
+            //modelBuilder.Entity<Category>().HasData(
+            //    new Category { Id = 1, categoryName = "Category 1" },
+            //    new Category { Id = 2, categoryName = "Category 2" },
+            //    new Category { Id = 3, categoryName = "Category 3" }
+            //    );
 
 
 
-            modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, productName = "Product 1", Description = "Product 1 Description", Price = 1000, Stock = 10},
-                new Product { Id = 2, productName = "Product 2", Description = "Product 2 Description", Price = 2000, Stock = 20},
-                new Product { Id = 3, productName = "Product 3", Description = "Product 3 Description", Price = 3000, Stock = 30},
-                new Product { Id = 4, productName = "Product 4", Description = "Product 4 Description", Price = 4000, Stock = 40}
-                );
+            //modelBuilder.Entity<Product>().HasData(
+            //    new Product { Id = 1, productName = "Product 1", Description = "Product 1 Description", Price = 1000, Stock = 10},
+            //    new Product { Id = 2, productName = "Product 2", Description = "Product 2 Description", Price = 2000, Stock = 20},
+            //    new Product { Id = 3, productName = "Product 3", Description = "Product 3 Description", Price = 3000, Stock = 30},
+            //    new Product { Id = 4, productName = "Product 4", Description = "Product 4 Description", Price = 4000, Stock = 40}
+            //    );
 
 
-            modelBuilder.Entity<ProductCategory>().HasData(
-                new ProductCategory { ProductId = 1, CategoryId = 1 },
-                new ProductCategory { ProductId = 1, CategoryId = 2 },
-                new ProductCategory { ProductId = 2, CategoryId = 1 },
-                new ProductCategory { ProductId = 3, CategoryId = 2 },
-                new ProductCategory { ProductId = 4, CategoryId = 2 }
-                );
+            //modelBuilder.Entity<ProductCategory>().HasData(
+            //    new ProductCategory { ProductId = 1, CategoryId = 1 },
+            //    new ProductCategory { ProductId = 1, CategoryId = 2 },
+            //    new ProductCategory { ProductId = 2, CategoryId = 1 },
+            //    new ProductCategory { ProductId = 3, CategoryId = 2 },
+            //    new ProductCategory { ProductId = 4, CategoryId = 2 }
+            //    );
         }
     }
 

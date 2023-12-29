@@ -1,21 +1,37 @@
 ﻿<Properties StartupConfiguration="{5B0C96A2-917F-4E9B-9B9B-21D7E3C6A921}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Core/OnionArc.Application/OnionArc.Application.csproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../OnionArc.Api/Controllers/AuthController.cs" line="21" column="50" endLine="21" endColumn="72" offsetX="-1" offsetY="-1" expression="RegisterCommandRequest" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Presentation.OnionArc.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OnionArc" expanded="True" selected="True" />
+          <Node name="OnionArc" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="OnionArc.Application" expanded="True">
+                <Node name="Interfaces" expanded="True">
+                  <Node name="Tokens" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True" />
+            <Node name="Presentation" expanded="True">
+              <Node name="OnionArc.Api" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <DisabledProjects>
-    <String>Core/OnionArc.Application/OnionArc.Application.csproj</String>
-  </DisabledProjects>
 </Properties>

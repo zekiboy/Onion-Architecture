@@ -1,24 +1,24 @@
 ﻿using System;
 using MediatR;
+using Microsoft.AspNetCore.Http;
+using OnionArc.Application.Bases;
 using OnionArc.Application.Interfaces;
 using OnionArc.Application.Interfaces.Automapper;
 using OnionArc.Domain.Entities;
 
 namespace OnionArc.Application.Features.Products.Commond.UpdateProduct
 {
-	public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommandRequest> 
+	public class UpdateProductCommandHandler : BaseHandler, IRequestHandler<UpdateProductCommandRequest, Unit> 
 	{
 
-        private readonly IUnitOfWork unitOfWork;
-        public IMapper mapper;
+ 
 
-        public UpdateProductCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
-		{
-            this.unitOfWork = unitOfWork;
-            this.mapper = mapper;
-		}
+        public UpdateProductCommandHandler(IMapper mapper, IUnitOfWork unitOfWork, IHttpContextAccessor httpContextAccessor)
+            : base(mapper, unitOfWork, httpContextAccessor)
+        {
+        }
 
-        public async Task Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
         {
             var product = await unitOfWork.GetReadRepository<Product>().GetAsync(x => x.Id == request.Id);
 
@@ -37,6 +37,9 @@ namespace OnionArc.Application.Features.Products.Commond.UpdateProduct
             await unitOfWork.GetWriteRepository<Product>().UpdateAsync(map);
             await unitOfWork.SaveAsync();
             //map is going to update
+
+            return Unit.Value;
+            //return Unit for Validation
 
         }
     } 

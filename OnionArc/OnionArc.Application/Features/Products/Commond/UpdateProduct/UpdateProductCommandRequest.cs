@@ -3,7 +3,7 @@ using MediatR;
 
 namespace OnionArc.Application.Features.Products.Commond.UpdateProduct
 {
-	public class UpdateProductCommandRequest : IRequest
+	public class UpdateProductCommandRequest : IRequest<Unit>
 	{
         public int Id { get; set; }
         public string productName { get; set; }

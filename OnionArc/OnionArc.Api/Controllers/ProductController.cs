@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using OnionArc.Application.Dto;
 using OnionArc.Application.Interfaces;
 using OnionArc.Domain.Entities;
 using MediatR;
@@ -9,6 +8,7 @@ using OnionArc.Application.Features.Products.Commond.CreateProduct;
 using OnionArc.Application.Features.Products.Commond.UpdateProduct;
 using OnionArc.Application.Features.Products.Commond.DeleteProduct;
 using OnionArc.Application.Features.Products.Queries.GetProduct;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OnionArc.Api.Controllers
 {
@@ -26,6 +26,7 @@ namespace OnionArc.Api.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAllProducts()
         {
             var response = await _mediator.Send(new GetAllProductsQueryRequest());
