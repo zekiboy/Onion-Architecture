@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ec1x/83G7A3xQxxx29cAjd1PmwrrBYFp57Jh9KWmzIdmhU7YYt07WyQN55/JtWNtA0eMYlW+J360jFujXe3kpA==",
+  "dgSpecHash": "YQVGon63erwaNge/MSiYYvzKOuUAkTNbxQZZPaiycHzRbI90uSApgRq4LA/c/UWs6Dd+qEFmr5IXAKXumq3/1w==",
   "success": true,
-  "projectFilePath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
+  "projectFilePath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj",
   "expectedPackageFiles": [
     "/Users/zekiboy/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/zekiboy/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

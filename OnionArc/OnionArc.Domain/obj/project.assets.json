@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
+      "projectUniqueName": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
       "projectName": "OnionArc.Domain",
-      "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
+      "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/OnionArc.Domain.csproj",
       "packagesPath": "/Users/zekiboy/.nuget/packages/",
-      "outputPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Domain/obj/",
+      "outputPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zekiboy/.nuget/NuGet/NuGet.Config"

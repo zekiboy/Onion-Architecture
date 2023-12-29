@@ -732,11 +732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/OnionArc.Mapper.csproj",
+      "projectUniqueName": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Mapper/OnionArc.Mapper.csproj",
       "projectName": "OnionArc.Mapper",
-      "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/OnionArc.Mapper.csproj",
+      "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Mapper/OnionArc.Mapper.csproj",
       "packagesPath": "/Users/zekiboy/.nuget/packages/",
-      "outputPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Mapper/obj/",
+      "outputPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Mapper/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
@@ -751,8 +751,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {
-              "projectPath": "/Users/zekiboy/Desktop/OnionArc/OnionArc.Application/OnionArc.Application.csproj"
+            "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj": {
+              "projectPath": "/Users/zekiboy/Library/CloudStorage/GoogleDrive-zekiiboy@gmail.com/Drive'ım/MyGithub/Onion-Architecture/tryUpdate/OnionArc/OnionArc.Application/OnionArc.Application.csproj"
             }
           }
         }
